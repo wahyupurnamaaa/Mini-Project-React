@@ -1,0 +1,28 @@
+.card-peserta {
+  background-color: #ffffff;
+  max-width: 1300px;
+  margin: 30px auto;
+  padding: 30px 40px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card-peserta h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0 0 15px 0;
+  color: #1a1a1a;
+}
+
+.card-peserta hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin-bottom: 15px;
+}
+
+.card-peserta p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  margin: 6px 0;
+  color: #1a1a1a;
+}
