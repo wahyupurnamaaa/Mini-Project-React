@@ -1,9 +1,11 @@
-import DataPeserta from "./components/DataPeserta";
+// import DataPeserta from "./components/DataPeserta";
+import PostContainer from "./components/PostContainer";
 
 function App() {
   return (
     <>
-      <DataPeserta
+      {/* Tugas 4 - DataPeserta */}
+      {/* <DataPeserta
         name="Rezky Putra"
         email="rezky@example.com"
         alamat="Makassar, Sulawesi Selatan"
@@ -17,7 +19,10 @@ function App() {
         name="Siti Aisyah"
         email="siti@example.com"
         alamat="Maros, Sulawesi Selatan"
-      />
+      /> */}
+
+      {/* Tugas 5 - PostContainer */}
+      <PostContainer />
     </>
   );
 }
