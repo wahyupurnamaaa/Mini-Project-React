@@ -1,5 +1,11 @@
 // import DataPeserta from "./components/DataPeserta";
-import PostContainer from "./components/PostContainer";
+// import PostContainer from "./components/PostContainer";
+
+// Tugas 6 - React : UI with Tailwind CSS
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Cta from "./components/Cta";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,7 +28,13 @@ function App() {
       /> */}
 
       {/* Tugas 5 - PostContainer */}
-      <PostContainer />
+      {/* <PostContainer /> */}
+
+      {/* Tugas 6 - Landing Page dengan Tailwind CSS + DaisyUI */}
+      <Hero />
+      <About />
+      <Cta />
+      <Footer />
     </>
   );
 }

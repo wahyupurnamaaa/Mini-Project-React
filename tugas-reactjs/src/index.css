@@ -1,16 +1,21 @@
-* {
-  box-sizing: border-box;
+@import "tailwindcss";
+@plugin "daisyui";
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  padding: 55px 10%;
-  background: #f7f7f7;
-  color: #000;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #ffffff;
+  color: #333;
 }
 
-.card {
+/* ===== Tugas Sebelumnya ===== */
+.card-old {
   width: 100%;
   min-height: 220px;
   margin-bottom: 54px;
@@ -18,26 +23,7 @@ body {
   background: #fff;
   box-shadow: 0 22px 18px rgba(0, 0, 0, 0.45);
 }
-
-.card h1 {
-  margin: 0 0 24px;
-  font-size: 34px;
-  line-height: 1.2;
-  font-weight: 700;
-}
-
-.card hr {
-  border: 0;
-  border-top: 1px solid #222;
-  margin: 0 0 18px;
-}
-
-.card p {
-  margin: 0 0 18px;
-  font-size: 16px;
-  line-height: 1.45;
-}
-
-.card p:last-child {
-  margin-bottom: 0;
-}
+.card-old h1 { margin: 0 0 24px; font-size: 34px; line-height: 1.2; font-weight: 700; }
+.card-old hr { border: 0; border-top: 1px solid #222; margin: 0 0 18px; }
+.card-old p { margin: 0 0 18px; font-size: 16px; line-height: 1.45; }
+.card-old p:last-child { margin-bottom: 0; }
