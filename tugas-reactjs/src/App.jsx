@@ -4,13 +4,16 @@ import HomeView from "./views/HomeView";
 import LoginView from "./views/LoginView";
 import RegisterView from "./views/RegisterView";
 
-// Tugas 7 - React Router
+import StudentView from "./views/StudentView";
+
+// Tugas 7 - React Router dan Tugas 8 - React CRUD
 
 const App = () => {
   return (
     <Routes>
       <Route path="" element={<MainLayout />}>
         <Route index element={<HomeView />} />
+        <Route path="student" element={<StudentView />} />
       </Route>
 
       <Route path="/login" element={<LoginView />} />

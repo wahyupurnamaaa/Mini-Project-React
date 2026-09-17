@@ -17,6 +17,7 @@ function Navbar() {
           <Link to="/" className="text-sm font-medium text-gray-800 hover:text-green-600 transition-colors">
             Home
           </Link>
+          <Link to="/student" className="text-sm font-medium text-gray-500 hover:text-green-600 transition-colors">Student</Link>
           <a href="#about" className="text-sm font-medium text-gray-500 hover:text-green-600 transition-colors">
             About
           </a>
@@ -43,6 +44,7 @@ function Navbar() {
             </div>
             <ul tabIndex={0} className="dropdown-content menu bg-white rounded-xl z-50 mt-2 w-48 p-2 shadow-lg border border-gray-100">
               <li><Link to="/">Home</Link></li>
+              <li><Link to="/student">Student</Link></li>
               <li><a href="#about">About</a></li>
               <li><a href="#cta">Contact</a></li>
             </ul>
